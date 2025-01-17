@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.AuthController.RegisterAsync(Business.Dtos.Auth.AuthRegisterDto)">
+            <summary>
+            Register
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.AuthController.LoginAsync(Business.Dtos.Auth.AuthLoginDto)">
+            <summary>
+            Login
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.GetAllProductAsync">
+            <summary>
+            List of products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.GetProductAsync(System.Int32)">
+            <summary>
+            GetProduct
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.CreateProductAsync(Business.Dtos.Product.ProductCreateDto)">
+            <summary>
+             For creating Product
+            </summary>
+            <remarks>
+            <ul>
+            <li>  <b>Type:</b> <p> 0 - New 1 - Sold </p>  </li>
+            </ul>
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.UpdateProductAsync(System.Int32,Business.Dtos.Product.ProductUpdateDto)">
+            <summary>
+            Update of Product
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.DeleteProductAsync(System.Int32)">
+            <summary>
+            Delete product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
