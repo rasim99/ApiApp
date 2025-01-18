@@ -1,11 +1,7 @@
-﻿using AutoMapper;
-using Business.Dtos.Auth;
+﻿
+using AutoMapper;
+using Business.Dtos.User;
 using Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.MappingProfiles
 {
@@ -13,9 +9,7 @@ namespace Business.MappingProfiles
     {
         public UserMappingProfile()
         {
-            CreateMap<AuthRegisterDto, User>()
-                .ForMember(dest=>dest.UserName,opt=>opt.MapFrom(src=>src.Email));
-
+            CreateMap<User,UserDto>();
         }
     }
 }

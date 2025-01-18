@@ -58,5 +58,26 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:Presentation.Controllers.UserController.GetAllUserAsync">
+            <summary>
+            Users List
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.AddRoleToUserAsync(Business.Dtos.UserRole.UserAddToRoleDto)">
+            <summary>
+            Add Role To User
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.RemoveRoleFromUserAsync(Business.Dtos.UserRole.UserRemoveRoleDto)">
+            <summary>
+            Remove Role from User
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

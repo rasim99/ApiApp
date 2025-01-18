@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\presentation\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\business\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|solutionrelative:business\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\business\\services\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|solutionrelative:business\\services\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\UserRoleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserRoleController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\UserRoleController.cs*",
+              "RelativeToolTip": "Presentation\\Controllers\\UserRoleController.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:01:30.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:55:17.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Program.cs*",
-              "RelativeToolTip": "Presentation\\Program.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:40:46.016Z",
+              "WhenOpened": "2025-01-18T17:55:01.831Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Concrete\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Concrete\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Concrete\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\Concrete\\UserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:23:15.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "Business\\Services\\Abstract\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:21:56.754Z"
             }
           ]
         }

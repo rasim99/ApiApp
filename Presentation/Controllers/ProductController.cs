@@ -1,6 +1,7 @@
 ﻿using Business.Dtos.Product;
 using Business.Services.Abstract;
 using Business.Wrappers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

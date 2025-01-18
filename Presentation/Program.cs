@@ -7,10 +7,13 @@ using Data.Contexts;
 using Data.Repositories.Abstract;
 using Data.Repositories.Concrete;
 using Data.UnitOfWork;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Presentation.Middlewares;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,10 +63,37 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Conf
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
 builder.Services.Configure<RouteOptions>(opt => opt.LowercaseUrls=true);
+
+
+//Adding Authentication
+builder.Services.AddAuthentication(opt => {
+    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+// adding JWT Bearer
+    .AddJwtBearer(options => {
+        options.SaveToken=true;
+        options.RequireHttpsMetadata = false;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidIssuer = builder.Configuration["JWT:Issuer"],
+        ValidAudience = builder.Configuration["JWT:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
+    };
+});
+
+
+// Auto Mapper
 builder.Services.AddAutoMapper(x =>
 {
     x.AddProfile<ProductMappingProfile>();
+    x.AddProfile<UserRoleMappingProfile>();
     x.AddProfile<UserMappingProfile>();
+    x.AddProfile<RoleMappingProfile>();
+
 });
 
 #region Repositories
@@ -73,6 +103,9 @@ builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 
 #region Services
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserRoleService, UserRoleService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 #endregion
