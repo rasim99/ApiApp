@@ -58,6 +58,13 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:Presentation.Controllers.RoleController.GetAllRolesAsync">
+            <summary>
+            Roles List
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="M:Presentation.Controllers.UserController.GetAllUserAsync">
             <summary>
             Users List

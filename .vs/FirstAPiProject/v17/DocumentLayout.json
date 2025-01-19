@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\business\\mappingprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\business\\mappingprofiles\\userrolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\userrolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\business\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B62C146-0595-426C-A591-1D587769FA04}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\aspnetapi\\firstapiproject\\presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A80E5D27-32BB-443B-91E7-9A849DF1A8E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\UserMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\UserMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:24:59.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRoleMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:24:56.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:24:30.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Concrete\\UserService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\Concrete\\UserService.cs",
@@ -38,12 +89,11 @@
               "RelativeToolTip": "Business\\Services\\Concrete\\UserService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:10:03.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T18:10:03.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Concrete\\RoleService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\Concrete\\RoleService.cs",
@@ -51,12 +101,11 @@
               "RelativeToolTip": "Business\\Services\\Concrete\\RoleService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:06:49.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T18:06:49.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Business\\Services\\Abstract\\IRoleService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\Abstract\\IRoleService.cs",
@@ -64,18 +113,17 @@
               "RelativeToolTip": "Business\\Services\\Abstract\\IRoleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:06:01.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T18:06:01.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASPNETAPI\\FirstAPiProject\\Presentation\\Controllers\\RoleController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T18:05:37.293Z",
               "EditorCaption": ""

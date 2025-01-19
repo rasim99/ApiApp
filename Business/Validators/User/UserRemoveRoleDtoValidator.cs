@@ -15,7 +15,7 @@ namespace Business.Validators.User
             RuleFor(x => x.UserId)
                .NotEmpty().WithMessage("Cannot be empty userid");
 
-            RuleFor(x => x.UserId)
+            RuleFor(x => x.RoleId)
                 .NotEmpty().WithMessage("Cannot be empty roleid");
         }
     }
